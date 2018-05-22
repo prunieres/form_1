@@ -5,7 +5,9 @@ section{
 }
 
 /* Formulaire 1 */
-
+sup{
+    color: red;
+}
 form{
     width: 70%;
     background-color: grey;
@@ -15,8 +17,20 @@ form{
 label{
 	display: block;
 	font-weight: bold;
-	
+
 }
-input{
+input, textarea, select{
     display: inline-block;
+    width: 70%;
+    line-height: 2em;
+}
+input[name=first], input[name=last]{
+    width: 34%;
+}
+input[type=submit]{
+    display: block;
+    width: 20%;
+}
+select{
+    padding: 0.7em;
 }
