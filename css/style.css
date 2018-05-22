@@ -1,17 +1,22 @@
 
 section{
     width: 720px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Formulaire 1 */
 
 form{
     width: 70%;
-    margin-left: 5%;
-    margin-top: 5%;
     background-color: grey;
+    padding: 2em;
 }
 
+label{
+	display: block;
+	font-weight: bold;
+	
+}
 input{
     display: inline-block;
 }
