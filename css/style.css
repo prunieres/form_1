@@ -1,0 +1,17 @@
+
+section{
+    width: 720px;
+}
+
+/* Formulaire 1 */
+
+form{
+    width: 70%;
+    margin-left: 5%;
+    margin-top: 5%;
+    background-color: grey;
+}
+
+input{
+    display: inline-block;
+}
