@@ -2,6 +2,7 @@
 section{
     width: 720px;
     font-family: 'Roboto', sans-serif;
+    margin: auto;
 }
 
 /* Formulaire 1 */
@@ -10,13 +11,14 @@ sup{
 }
 form{
     width: 70%;
-    background-color: grey;
-    padding: 2em;
+    /* background-color: grey; */
+    padding: 1em 0 0.2em 2em;
 }
 
 label{
-	display: block;
-	font-weight: bold;
+    display: block;
+    font-weight: bold;
+    padding-top: 0.75em;
 
 }
 input, textarea, select{
@@ -29,7 +31,11 @@ input[name=first], input[name=last]{
 }
 input[type=submit]{
     display: block;
-    width: 20%;
+    width: 15%;
+    background-color: #3c97ae;
+    border-width:  0;
+    color:  white;
+    padding: 0.4em;
 }
 select{
     padding: 0.7em;
