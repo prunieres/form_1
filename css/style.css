@@ -7,6 +7,7 @@ section{
 }
 sup{
    color: red;
+   margin-left: 0.4em;
 }
 #form1{
     background-color: grey;
@@ -48,18 +49,38 @@ select{
 }
 
 /*--------------------------------------------------- Formulaire 2 */
-
+#form2{
+    font-weight: bold;
+}
+#form2 h1{
+    font-style: italic;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+#form2 hr{
+    color : grey;
+}
 #form2 label{
     display: inline-block;
     width: 25%;
+    vertical-align: top;
+    margin-top: 1em;
+}
+}
+#form2 select{
+    width: 25%;
+    margin-right: 40%;
+}
+#form2 input, #form2 select, #form2 textarea{
+    margin-top: 1em;
 }
 #form2 input[type=tel]{
-    width: 5%;
+    width: 8%;
 }
 
 #form2 > form > input:nth-child(10){ /*explication Gaëtan*/
     display: inline-block;
-    margin-right: 50%;
+    margin-right: 40%;
 }
 #form2 form > *{
     border-radius: 0.5rem;
