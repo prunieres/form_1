@@ -1,4 +1,4 @@
-/* General */
+/*-------------------------------------------------- General */
 
 section{
     width: 720px;
@@ -8,26 +8,24 @@ section{
 sup{
    color: red;
 }
-
 #form1{
     background-color: grey;
 }
 #form2{
     background-color: pink;
 }
-/* Formulaire 1 */
+
+/*------------------------------------------------- Formulaire 1 */
 
 
 form{
     width: 70%;
     padding: 1em 0 0.2em 2em;
 }
-
 #form1 label{
     display: block;
     font-weight: bold;
     padding-top: 0.75em;
-
 }
 input, textarea, select{
     display: inline-block;
@@ -48,4 +46,21 @@ input[name=first], input[name=last]{
 select{
     padding: 0.7em;
 }
-/* Formulaire 2 */
+
+/*--------------------------------------------------- Formulaire 2 */
+
+#form2 label{
+    display: inline-block;
+    width: 25%;
+}
+#form2 input[type=tel]{
+    width: 5%;
+}
+
+#form2 > form > input:nth-child(10){ /*explication Gaëtan*/
+    display: inline-block;
+    margin-right: 50%;
+}
+#form2 form > *{
+    border-radius: 0.5rem;
+}
