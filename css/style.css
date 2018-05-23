@@ -1,21 +1,29 @@
+/* General */
 
 section{
     width: 720px;
     font-family: 'Roboto', sans-serif;
     margin: auto;
 }
-
-/* Formulaire 1 */
 sup{
-    color: red;
+   color: red;
 }
+
+#form1{
+    background-color: grey;
+}
+#form2{
+    background-color: pink;
+}
+/* Formulaire 1 */
+
+
 form{
     width: 70%;
-    /* background-color: grey; */
     padding: 1em 0 0.2em 2em;
 }
 
-label{
+#form1 label{
     display: block;
     font-weight: bold;
     padding-top: 0.75em;
@@ -29,7 +37,7 @@ input, textarea, select{
 input[name=first], input[name=last]{
     width: 34%;
 }
-input[type=submit]{
+#form1 input[type=submit]{
     display: block;
     width: 15%;
     background-color: #3c97ae;
@@ -40,3 +48,4 @@ input[type=submit]{
 select{
     padding: 0.7em;
 }
+/* Formulaire 2 */
